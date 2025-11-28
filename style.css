@@ -1,0 +1,174 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    background: #f2f6fc;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.Navbar {
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    padding: 25px 0 15px 0;
+    border-bottom: 1px solid #e5e8ea;
+}
+.Navbar img {
+    height: 55px;
+}
+
+/* MAIN CARD */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+/* HERO IMAGE */
+.imageshow img {
+    width: 398px;
+    height: 297px;
+    display: block;
+    margin: 40px auto;
+}
+
+/* BLUE BOX */
+.blue-box {
+    background: #246bd2;
+    color: white;
+    padding: 58px 28px;
+    text-align: left;
+}
+.blue-box h3 {
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.blue-box p {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* BUTTON */
+.btn {
+    background: white;
+    border: none;
+    width: 228px;
+    height: 54px;
+    color: #246bd2;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;                 
+    align-items: center;         
+    justify-content: center;      
+    margin-top: 22px;
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+/* CONTENT */
+.content {
+    padding: 28px;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.content h4 {
+    margin-top: 15px;
+    color: #246bd2;
+}
+
+/* BULLET STYLE */
+.content ul {
+    padding-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.content ul li {
+    margin-bottom: 8px;
+}
+.content ul li::marker {
+    color: #246bd2;
+    font-size: 18px;
+}
+
+/* FOOTER BLUE BAR */
+.Geveal-12 {
+    background: #246bd2;
+    text-align: center;
+    padding: 25px 10px;
+}
+.Geveal-12 img {
+    height: 45px;
+    margin-bottom: 10px;
+}
+.Geveal-12 p {
+    margin: 0;
+    color: white;
+    font-size: 13px;
+}
+strong {
+    color: #246bd2;
+}
+
+/* FINAL FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #3a4a61;
+}
+.footer p {
+    color: #246bd2;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer small {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: grey;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 600px) {
+
+    .container {
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    .imageshow img {
+        width: 100%;     
+        height: auto;      
+    }
+
+    .blue-box {
+        padding: 32px 20px;
+        text-align: left; 
+    }
+
+    .blue-box h3 {
+        margin-top: 0;
+    }
+
+    .btn {
+        width: 100%;           
+        height: 54px;      
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .content {
+        padding: 22px;
+    }
+
+    .content ul {
+        padding-left: 18px;
+    }
+}
+
